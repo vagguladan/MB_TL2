@@ -9,6 +9,7 @@
 #include "MBInput.h"
 #include "MBCollisionManager.h"
 #include "MBBaseHitbox.h"
+#include "MBShiki.h"
 
 namespace MB
 {
@@ -626,6 +627,14 @@ namespace MB
 
 	void Saber::OnCollisionEnter(Collider* other)
 	{
+		Shiki* shiki = dynamic_cast<Shiki*>(other->GetOwner());
+		if (shiki == nullptr)
+			return;
+		Transform* Str = shiki->GetComponent<Transform>();
+		Vector2 pos = Str->GetPosition();
+
+		Animator* Shiki_Hit = shiki->GetComponent<Animator>();
+		Shiki_Hit->PlayAnimation(L"Shiki_StandHit");
 	}
 	void Saber::OnCollisionStay(Collider* other)
 	{

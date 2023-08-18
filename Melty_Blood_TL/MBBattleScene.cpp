@@ -51,7 +51,7 @@ namespace MB
 
 		//Ω√≈∞ 
 
-		Shiki* shiki = object::Instantiate<Shiki>(eLayerType::Player);
+		Shiki* shiki = object::Instantiate<Shiki>(eLayerType::Enemy);
 		Transform* tr3 = shiki->GetComponent<Transform>();
 		tr3->SetPosition(Vector2(1200.0f, 360.0f));
 		shiki->GetComponent<Animator>()->SetAffectedCamera(true);
@@ -75,9 +75,9 @@ namespace MB
 		
 
 		CollisionManager::CollisionLayerCheck(eLayerType::Player, eLayerType::Floor, true);
+		CollisionManager::CollisionLayerCheck(eLayerType::Enemy, eLayerType::Floor, true);
 
-
-		CollisionManager::CollisionLayerCheck(eLayerType::Player, eLayerType::Floor, true);
+		CollisionManager::CollisionLayerCheck(eLayerType::Player, eLayerType::Enemy, true);
 		Camera::SetTarget(saber);
 	}
 	void BattleScene1::Update()

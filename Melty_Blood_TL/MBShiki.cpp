@@ -62,7 +62,6 @@ namespace MB
 		at2->CreateAnimationFolder(L"Shiki_SitAAttack", L"..\\Resources\\Image\\Player\\Shiki\\SitAAttack", Vector2(0.0f, -60.0f));
 		at2->CreateAnimationFolder(L"Shiki_SitBAttack", L"..\\Resources\\Image\\Player\\Shiki\\SitBAttack", Vector2(0.0f, -60.0f));
 		at2->CreateAnimationFolder(L"Shiki_SitCAttack", L"..\\Resources\\Image\\Player\\Shiki\\SitCAttack", Vector2(0.0f, -60.0f));
-		at2->CreateAnimationFolder(L"Shiki_StandtoSit", L"..\\Resources\\Image\\Player\\Shiki\\StandToSit", Vector2(0.0f, -60.0f));
 		at2->CreateAnimationFolder(L"Shiki_JumpToUp", L"..\\Resources\\Image\\Player\\Shiki\\JumpUp", Vector2(0.0f, -60.0f));
 		at2->CreateAnimationFolder(L"Shiki_JumpToDown", L"..\\Resources\\Image\\Player\\Shiki\\JumpDown", Vector2(0.0f, -60.0f));
 		at2->CreateAnimationFolder(L"Shiki_FrontMove", L"..\\Resources\\Image\\Player\\Shiki\\FrontMove", Vector2(0.0f, -60.0f));

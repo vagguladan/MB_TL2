@@ -1,0 +1,352 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Engine">
+      <UniqueIdentifier>{b3a7127a-13a5-466c-bb95-51da37d6cade}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Windows">
+      <UniqueIdentifier>{f5f78753-b3ee-4c88-9ce8-8797178a1724}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Windows\Header">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Windows\ResourceFolder">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Engine\Camera">
+      <UniqueIdentifier>{b02c83ba-63de-49d8-b50f-5943a78f822d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Collision">
+      <UniqueIdentifier>{dbc3c452-fb78-4874-9fb7-d18da848fe83}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Common">
+      <UniqueIdentifier>{12ffe107-f216-47d3-939c-1a30c0320f1c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Component">
+      <UniqueIdentifier>{e661cd94-b4ec-4f5c-9941-6097a2067ad1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Contents">
+      <UniqueIdentifier>{0600272d-8a8c-47aa-832e-17df4781010f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Entity">
+      <UniqueIdentifier>{4056ceb0-2524-405b-b238-69a094ccc58d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\GameObject">
+      <UniqueIdentifier>{b333a9e0-07f9-4960-8e04-181764df6875}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\High Level Interface">
+      <UniqueIdentifier>{08722153-519e-42a6-bc31-77e5c443d569}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Input">
+      <UniqueIdentifier>{f4e297b0-1ad9-4073-ae1f-c2cef062f02f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Layer">
+      <UniqueIdentifier>{c3fd3dec-ca99-49a1-973d-d66712acc023}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Resource">
+      <UniqueIdentifier>{a60a6b91-6ad0-4cef-931a-8de63c482837}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Scene">
+      <UniqueIdentifier>{23c330ff-7753-4fe7-bf58-80c95129d8c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Common\Time">
+      <UniqueIdentifier>{f7bc99e0-1f77-4ce0-a16e-c961834bff28}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Component\Animator">
+      <UniqueIdentifier>{4754109c-435e-4697-b0bc-316091663aaa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Component\Collider">
+      <UniqueIdentifier>{a656ef1c-592a-4873-8f03-e5bde4f0ea65}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Component\SpriteRender">
+      <UniqueIdentifier>{17481683-5210-42f3-88cb-5e59706db0a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Component\Transform">
+      <UniqueIdentifier>{645815f5-2ce2-4a9f-bf68-b11c7fad29ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Contents\GameObject">
+      <UniqueIdentifier>{d7ed72b1-d860-42a6-b779-e9d839eb8766}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Contents\GameObject\Floor">
+      <UniqueIdentifier>{41d93f0f-6fd2-4781-a836-00d8a2eb3732}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Contents\GameObject\BackGround">
+      <UniqueIdentifier>{350ab5df-7965-4a4b-b3f2-47b2bf07e91d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Contents\GameObject\Playerble">
+      <UniqueIdentifier>{cc1daee8-3862-4765-939d-38c7f983e88e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Contents\GameObject\Playerble\Saber">
+      <UniqueIdentifier>{0c741807-c749-4ce5-b26f-f1cad6335ffc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Contents\GameObject\Playerble\Shiki">
+      <UniqueIdentifier>{41f6894e-cf25-468a-8915-e846119ba8ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Resource\Animaiton">
+      <UniqueIdentifier>{a787093e-455e-448c-9ec5-0e16a04174d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Resource\Image">
+      <UniqueIdentifier>{34b21de9-b942-44a9-92bd-81159d5ed07b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Contents\GameObject\Scene">
+      <UniqueIdentifier>{7c47d6b0-0134-4b46-9735-d5b018bd579c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Contents\GameObject\Scene\Charcter_Select">
+      <UniqueIdentifier>{488780bf-4e4f-49f4-ad3a-86acdf098abe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Contents\GameObject\Scene\TitleScene">
+      <UniqueIdentifier>{6f3ef7ac-230e-40c5-aca8-f58a48921f77}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Contents\GameObject\Scene\BattleScene">
+      <UniqueIdentifier>{c9a83081-3b6f-4178-b76f-40f4feb40cd3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Component\RigidBody">
+      <UniqueIdentifier>{ad994492-2345-49ab-a131-3ac1a0ade270}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Contents\GameObject\Playerble\HitBox">
+      <UniqueIdentifier>{8bdf60d5-3b3d-4be3-8026-95e726c84c94}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Contents\GameObject\Playerble\HitBox\BaseHitbox">
+      <UniqueIdentifier>{15b8cc22-77f5-4d68-9e70-f325c0717a9f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Contents\GameObject\Playerble\HitBox\SaberHitBox">
+      <UniqueIdentifier>{ebfc6538-7125-4f9f-bd1b-8545f99034f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Contents\GameObject\Wall">
+      <UniqueIdentifier>{2f174901-9d84-4bf3-911d-c3bca96530da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Contents\GameObject\Playerble\Saber\SaberAttack">
+      <UniqueIdentifier>{ed2543d7-d761-471e-a205-376f80216f39}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="framework.h">
+      <Filter>Windows\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Windows\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Windows\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Melty_Blood_TL.h">
+      <Filter>Windows\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="MBMath.h">
+      <Filter>Engine\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="MBTime.h">
+      <Filter>Engine\Common\Time</Filter>
+    </ClInclude>
+    <ClInclude Include="CommonInclude.h">
+      <Filter>Engine\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="MBApplication.h">
+      <Filter>Engine\High Level Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="MBInput.h">
+      <Filter>Engine\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="MBTransform.h">
+      <Filter>Engine\Component\Transform</Filter>
+    </ClInclude>
+    <ClInclude Include="MBComponent.h">
+      <Filter>Engine\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="MBEntity.h">
+      <Filter>Engine\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="MBGameObject.h">
+      <Filter>Engine\Contents\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="MBObject.h">
+      <Filter>Engine\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="MBLayer.h">
+      <Filter>Engine\Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="MBSpriteRender.h">
+      <Filter>Engine\Component\SpriteRender</Filter>
+    </ClInclude>
+    <ClInclude Include="MBResource.h">
+      <Filter>Engine\Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="MBResources.h">
+      <Filter>Engine\Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="MBTexture.h">
+      <Filter>Engine\Resource\Image</Filter>
+    </ClInclude>
+    <ClInclude Include="MBCamera.h">
+      <Filter>Engine\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="MBAnimation.h">
+      <Filter>Engine\Resource\Animaiton</Filter>
+    </ClInclude>
+    <ClInclude Include="MBAnimator.h">
+      <Filter>Engine\Component\Animator</Filter>
+    </ClInclude>
+    <ClInclude Include="MBCollider.h">
+      <Filter>Engine\Component\Collider</Filter>
+    </ClInclude>
+    <ClInclude Include="MBCollisionManager.h">
+      <Filter>Engine\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="MBScene.h">
+      <Filter>Engine\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="MBSceneManager.h">
+      <Filter>Engine\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="MBSaber.h">
+      <Filter>Engine\Contents\GameObject\Playerble\Saber</Filter>
+    </ClInclude>
+    <ClInclude Include="MBRigidBody.h">
+      <Filter>Engine\Component\RigidBody</Filter>
+    </ClInclude>
+    <ClInclude Include="MBBackGround.h">
+      <Filter>Engine\Contents\GameObject\BackGround</Filter>
+    </ClInclude>
+    <ClInclude Include="MBFloor.h">
+      <Filter>Engine\Contents\GameObject\Floor</Filter>
+    </ClInclude>
+    <ClInclude Include="MBCharcterScene.h">
+      <Filter>Engine\Contents\GameObject\Scene\Charcter_Select</Filter>
+    </ClInclude>
+    <ClInclude Include="MBBattleScene.h">
+      <Filter>Engine\Contents\GameObject\Scene\BattleScene</Filter>
+    </ClInclude>
+    <ClInclude Include="MBTitleScene.h">
+      <Filter>Engine\Contents\GameObject\Scene\TitleScene</Filter>
+    </ClInclude>
+    <ClInclude Include="MBBaseHitbox.h">
+      <Filter>Engine\Contents\GameObject\Playerble\HitBox\BaseHitbox</Filter>
+    </ClInclude>
+    <ClInclude Include="MBSaberHitBox.h">
+      <Filter>Engine\Contents\GameObject\Playerble\HitBox\SaberHitBox</Filter>
+    </ClInclude>
+    <ClInclude Include="MBShiki.h">
+      <Filter>Engine\Contents\GameObject\Playerble\Shiki</Filter>
+    </ClInclude>
+    <ClInclude Include="MBWall.h">
+      <Filter>Engine\Contents\GameObject\Wall</Filter>
+    </ClInclude>
+    <ClInclude Include="MBSaberAttack.h">
+      <Filter>Engine\Contents\GameObject\Playerble\Saber\SaberAttack</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Melty_Blood_TL.rc">
+      <Filter>Windows\ResourceFolder</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>Windows\ResourceFolder</Filter>
+    </Image>
+    <Image Include="Melty_Blood_TL.ico">
+      <Filter>Windows\ResourceFolder</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Melty_Blood_TL.cpp" />
+    <ClCompile Include="MBMath.cpp">
+      <Filter>Engine\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="MBTime.cpp">
+      <Filter>Engine\Common\Time</Filter>
+    </ClCompile>
+    <ClCompile Include="MBApplication.cpp">
+      <Filter>Engine\High Level Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="MBInput.cpp">
+      <Filter>Engine\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="MBTransform.cpp">
+      <Filter>Engine\Component\Transform</Filter>
+    </ClCompile>
+    <ClCompile Include="MBComponent.cpp">
+      <Filter>Engine\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="MBEntity.cpp">
+      <Filter>Engine\Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="MBGameObject.cpp">
+      <Filter>Engine\Contents\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="MBLayer.cpp">
+      <Filter>Engine\Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="MBSpriteRender.cpp">
+      <Filter>Engine\Component\SpriteRender</Filter>
+    </ClCompile>
+    <ClCompile Include="MBResource.cpp">
+      <Filter>Engine\Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="MBResources.cpp">
+      <Filter>Engine\Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="MBTexture.cpp">
+      <Filter>Engine\Resource\Image</Filter>
+    </ClCompile>
+    <ClCompile Include="MBCamera.cpp">
+      <Filter>Engine\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="MBAnimation.cpp">
+      <Filter>Engine\Resource\Animaiton</Filter>
+    </ClCompile>
+    <ClCompile Include="MBAnimator.cpp">
+      <Filter>Engine\Component\Animator</Filter>
+    </ClCompile>
+    <ClCompile Include="MBCollider.cpp">
+      <Filter>Engine\Component\Collider</Filter>
+    </ClCompile>
+    <ClCompile Include="MBCollisionManager.cpp">
+      <Filter>Engine\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="MBScene.cpp">
+      <Filter>Engine\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="MBSceneManager.cpp">
+      <Filter>Engine\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="MBSaber.cpp">
+      <Filter>Engine\Contents\GameObject\Playerble\Saber</Filter>
+    </ClCompile>
+    <ClCompile Include="MBRigidBody.cpp">
+      <Filter>Engine\Component\RigidBody</Filter>
+    </ClCompile>
+    <ClCompile Include="MBBackGround.cpp">
+      <Filter>Engine\Contents\GameObject\BackGround</Filter>
+    </ClCompile>
+    <ClCompile Include="MBFloor.cpp">
+      <Filter>Engine\Contents\GameObject\Floor</Filter>
+    </ClCompile>
+    <ClCompile Include="MBCharcterScene.cpp">
+      <Filter>Engine\Contents\GameObject\Scene\Charcter_Select</Filter>
+    </ClCompile>
+    <ClCompile Include="MBBattleScene.cpp">
+      <Filter>Engine\Contents\GameObject\Scene\BattleScene</Filter>
+    </ClCompile>
+    <ClCompile Include="MBTitleScene.cpp">
+      <Filter>Engine\Contents\GameObject\Scene\TitleScene</Filter>
+    </ClCompile>
+    <ClCompile Include="MBBaseHitbox.cpp">
+      <Filter>Engine\Contents\GameObject\Playerble\HitBox\BaseHitbox</Filter>
+    </ClCompile>
+    <ClCompile Include="MBSaberHitBox.cpp">
+      <Filter>Engine\Contents\GameObject\Playerble\HitBox\SaberHitBox</Filter>
+    </ClCompile>
+    <ClCompile Include="MBShiki.cpp">
+      <Filter>Engine\Contents\GameObject\Playerble\Shiki</Filter>
+    </ClCompile>
+    <ClCompile Include="MBWall.cpp">
+      <Filter>Engine\Contents\GameObject\Wall</Filter>
+    </ClCompile>
+    <ClCompile Include="MBSaberAttack.cpp">
+      <Filter>Engine\Contents\GameObject\Playerble\Saber\SaberAttack</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
